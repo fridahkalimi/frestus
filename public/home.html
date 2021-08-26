@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Frestus - Sacco</title>
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h3>Frestus</h3>
+        </div>
+        <div class="nav-menu">
+            <a href="#">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="carhire.html">CAR HIRE</a>
+            <a href="contactus.html">CONTACT US</a>
+        </div>
+    </div>
+
+    <div class="home-page">
+        <div class="home-container">
+            <h2>Welcome to Frestus Sacco</h2>
+            <p>The Easiest Way To Book Tckets In Kenya</p>
+            <div class="route-list">
+                <div class="from">
+                    <h2>FROM</h2>
+                    <p>Nairobi</p>
+                    <p>Machakos</p>
+                    <p>Kitui</p>
+                    <p>Mwingi</p>
+                    <p>Makueni</p>
+                    <p>Mutito</p>
+                </div>
+                <div class="from">
+                    <h2>TO</h2>
+                    <p>Nairobi</p>
+                    <p>Machakos</p>
+                    <p>Kitui</p>
+                    <p>Mwingi</p>
+                    <p>Makueni</p>
+                    <p>Mutito</p>
+                </div>
+            </div>
+
+            <div class="trip">
+                <form method="get" action="./search.html" name="form1">
+                    <!-- <select id="name" class="from" name="from" required>
+                        <option id="name" value="">leaving from</option>
+                        <option id="name" value="Nairobi">Nairobi</option>
+                        <option id="name" value="Machakosi">Machakos</option>
+                        <option value="Makueni">Makueni</option>
+                        <option value="Kitui">Kitui</option>
+                        <option value="Mwingi">Mwingi</option>
+                        <option value="Mutito">Mutito</option>
+                    </select> -->
+                    <input type="text" id="name" placeholder="From">
+                    <input type="text" id="name2" placeholder="Going to">
+                    <!-- <select id="name" class="to" name="to" required>
+                        <option id="name" value="">Going to</option>
+                        <option id="name" value="Nairobi">Nairobi</option>
+                        <option id="name" value="Machakosi">Machakos</option>
+                        <option value="Makueni">Makueni</option>
+                        <option value="Kitui">Kitui</option>
+                        <option value="Mwingi">Mwingi</option>
+                        <option value="Mutito">Mutito</option>
+                    </select> -->
+                    <input id="name" type="date" class="date-picker" required>
+                    <input type="submit" value="next" style="display: none;" >
+                    <button  type="button" onClick="testJS()">Search Bus</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress">
+        <h1>OUR PROGRESS</h1>
+        <div class="progress-body">
+            <div class="progress-body-body">
+                <span>
+                    <i class=" fa fa-users"></i>
+                    <h2>1000+</h2>
+                </span>
+                <h3>CUSTOMERS</h3>
+            </div>
+            <div class="progress-body-body">
+                <span>
+                    <i class=" fa fa-bus"></i>
+                    <h2>10+</h2>
+                </span>
+                <h3>BUSES</h3>
+            </div>
+            <div class="progress-body-body">
+                <span>
+                    <i class=" fa fa-address-card-o"></i>
+                    <h2>3000+</h2>
+                </span>
+                <h3>BUS TICKETS SOLD</h3>
+            </div>
+            <div class="progress-body-body">
+                <span>
+                    <i class=" fa fa-long-arrow-right"></i>
+                    <h2>5+</h2>
+                </span>
+                <h3>ROUTES</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="how-works">
+        <div class="bck-img">
+            <h1>HOW IT WORKS</h1>
+            <div class="how-works-body">
+                <div class="works-content">
+                    <img src="./images/book.png" alt="book">
+                    <h2>BOOK</h2>
+                    <p>Select Bus & Seat on Frestus.com</p>
+                </div>
+                <div class="works-content">
+                    <img src="./images/pay.png" alt="book">
+                    <h2>PAY</h2>
+                    <p>Credit Card</p>
+                </div>
+                <div class="works-content">
+                    <img src="./images/ticket.jpg" alt="book">
+                    <h2>CONFIRM</h2>
+                    <p>SMS or email ticket, Print if desired</p>
+                </div>
+                <div class="works-content">
+                    <img src="./images/travel.jpg" alt="book">
+                    <h2>TRAVEL</h2>
+                    <p>Present ticket to travel</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="moreInfo">
+        <h2>NEED MORE INFORMATION</h2><br>
+        <p>Please call 0706622619 or email fridakalimi5@gmail.com to get more information how to become an agent with Frestus Sacco </p>
+            <a href="contactus.html">
+                <button type="button">CONTACT US</button>
+            </a>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <h2>Frestus</h2>
+        </div>
+        <div class="footer-right">
+            <div class="copyright">
+                <i class="fa fa-copyright"></i>
+                2021 Frestus Sacco
+            </div>
+            <div class="socialMedia">
+                <a href="https://facebook.com/fridah.chris.73">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/fridahkalimi">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                
+                <a href="https:api.whatsapp.com/send?phone=+254706622619">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="../script.js"></script> -->
+</body>
+<script>
+    // function testJS() {
+    //     var b = document.getElementById('name', '').value,
+    //         url = './search.html?name=' + encodeURIComponent(b);
+    //     var c = document.getElementById('name2', '').value,
+    //         url = './search.html?name=' + encodeURIComponent(c);
+    //     document.location.href = url;
+    // }
+
+    function testJS() {
+        var b= document.getElementById( 'name2', '').value,
+            url = './search.html?name=' + encodeURIComponent(b);
+            // url = './search.html?name=' + encodeURIComponent(b);
+
+        // var c = document.getElementById('name2', '').value,
+        //     url = './search.html?name=' + encodeURIComponent(c);
+
+        document.location.href = url;
+    }
+
+</script>
+</html>

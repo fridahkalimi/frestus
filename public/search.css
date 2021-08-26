@@ -1,0 +1,218 @@
+.search-bar{
+    height: 8vh;
+    background-color:#a5114f;
+    align-items: center;
+}
+
+.search{
+    padding-top: .6rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+td{
+    font-size: 1.34rem;
+    color: gray;
+}
+
+.search-barRight{
+    display: flex;
+    align-items: center;
+}
+.search-barRight a{
+    margin-right: 1rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.search-barRight p{
+    color: tomato;
+}
+
+.result-home{
+    width: 75%;
+    margin: auto;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.results-left{
+    background-color: white;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    height: 400px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-search{
+    color: #a5114f;
+}
+
+.bottom > .select{
+    margin-top: 1rem !important;
+    padding: .5rem;
+    border: 1px solid gray !important;
+    border-radius: 3px;
+    background-color: white;
+}
+.data{
+    margin-top: 1rem;
+    color: #a5114f;
+}
+
+.data input[type=date]{
+    width: 93%;
+    margin-top: .5em;
+    padding: .5em;
+    color: #a5114f;
+}
+
+.bottom > button{
+    margin-top: 1rem;
+    padding: .7rem;
+    /* background-color: #a5114f; */
+    color: white;
+    font-weight: bold;
+    border: none;
+    /* border-radius: 3px; */
+    cursor: pointer;
+    transition: .133s ease-in;
+}
+
+.bottom > button:hover{
+    background-color: #ff076e;
+}
+.pay{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pay > p{
+    color: #a5114f;
+    font-size: 16px;
+    margin-right: .5rem;
+}
+
+.results-right{
+    width: 74%;
+}
+
+.right-top{
+    background-color: white;
+    padding: 1rem;
+}
+
+.right-topBottom{
+    border-top: 1px solid rgb(168, 168, 168);
+    margin-top: .5rem;
+    font-weight: lighter;
+    padding-top: .5rem;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+}
+.right-topBottom span{
+    margin-right: .5rem;
+}
+
+.results-car{
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 40vh;
+}
+
+.bus-details{
+    width: 50%;
+    padding-top: 2rem;
+}
+
+.bus-name{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding-bottom: .35rem;
+    font-size: 1.5rem;
+    border-bottom:  1px solid gray;
+}
+
+.bus-driver{
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.bus-details > #paypal-button,#paypal-button-0, #paypal-button-1 {
+    margin-top: 1rem;
+    padding: .7rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .133s ease-in;
+    float: right;
+}
+
+.bus-details > button:hover{
+    background-color: #ff076e;
+}
+
+.dpt-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .6rem;
+    padding-top: 1rem;
+}
+.dpt-time > p{
+    color: #a5114f;
+    font-weight: bold;
+}
+
+.bs-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: #a5114f;
+    padding: .34rem;
+    border-radius: 3px;
+    color: white;
+}
+
+.bs-price > p{
+    font-weight: bold;
+}

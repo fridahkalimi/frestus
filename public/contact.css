@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-us{
+    background-image: url("https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.contact-us h2{
+    text-align: center;
+    color: white;
+    padding-top: 7rem;
+    font-weight: 800;
+}
+.contact-us p{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+
+}
+
+.contactUs-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    width: 300px;
+    height: max-content;
+    text-align: center;
+    margin-top: -2rem;
+    transition: 1s ease;
+}
+.contactUs-card:hover{
+    margin-top: -2.5rem;
+}
+.contactUs-card > h3{
+    padding: .5rem;
+    color: orangered;
+}
+.contactUs-card p{
+    padding: .34rem;
+}
+
+.fa-phone{
+    font-size: 2.5rem;
+    color:rgba(255, 38, 0, 0.685) ;
+}
+.fa-envelope{
+    color:rgba(255, 38, 0, 0.685) ;
+    font-size: 2.5rem;
+}
+.number{
+    color:rgb(255, 38, 0);
+}
+
+
+/* style the contact form */
+
+.contact-form{
+    width: 100%;
+   min-height: 70vh;
+    background-color: rgba(255, 38, 0, 0.685) ;
+    padding: 3rem;border-bottom: 1px solid white;
+
+}
+.contact-form form{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+.form-left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.label input[type=text],[type=email]{
+    width: 100%;
+    height: 1.7rem;
+}
+label{
+    font-size: 13px;
+    color: red;
+    font-weight: 900;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+.form-right button{
+    right: 0;
+    width: 110px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(255, 38, 0, 0.685);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-right button:hover{
+    background-color: black;
+}

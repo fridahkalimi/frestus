@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.car-hire{
+    background-image: url(./images/mtt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(60vh - 0px);
+}
+
+.car-hireHeader{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.header-left{
+    width: 50%;
+    
+}
+
+.header-left h1{
+    color: rgb(255, 38, 0);
+}
+
+.header-left h4{
+    color: pink;
+    text-shadow: 2px 1px black;
+    font-size: 22px !important;
+}
+
+
+.header-right{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 1.5rem;
+    border-radius: 5px;
+
+}
+
+.header-right h3{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form-body > label{
+    color: rgb(255, 38, 0) ;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.form-body input{
+    height: 2.23rem;
+    border: none;
+    border-radius: 4px;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.form-body input:focus{
+    border: 1px solid rgb(255, 38, 0) ;
+}
+
+button{
+    margin-top: 2rem;
+    padding: .6rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 38, 0) ;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+
+.moreHire-info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    margin: auto;
+}
+.moreHire-info > h2{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+span > p > strong{
+    color: rgb(255, 38, 0) ;
+}
+
+span{
+    padding-top: 2rem;
+    font-size: 23px;
+    width: 65%;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.moreHire-info > button{
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+
+
+/* who can see us section */
+.who-can-use-us{
+    margin-top: 4rem;
+    padding: 5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.who-can-use-us h1{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+
+.who-cards-section{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    grid-gap: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.who-card{
+    display: grid;
+    justify-items: center;
+    grid-gap: 1rem;
+}
+
+.who-card img{
+    transform: scale(0.8);
+    transition: transform .5s ease-in-out;
+
+}
+
+.who-card .img{
+    /* background-color: rgb(235, 46, 46); */
+    overflow: hidden;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+
+
+.who-card .img:hover img{
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+}
+
+.who-card h2{
+    font-size: 1em;
+    font-weight: 550;
+    color: #333;
+    text-transform: uppercase;
+    padding: 1rem 0 .5rem;
+}
+
+.who-card p{
+    font-size: 1.2em;
+    color: #838383;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.who-can-use-us button{
+    margin-top: 2rem;
+    border: none;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    font-weight: normal;
+    font-size: .8em;
+    background-color: #cf2264;
+}
+
+.who-can-use-us button:hover{
+    background-color: #000;
+}
